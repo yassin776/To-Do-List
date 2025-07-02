@@ -1,2 +1,2 @@
-# To-Do-List
-it helps you memmorise and plan what you want to do in your day , and when done you could press on it to make a line through it
+# Computer-Information-Draging-Web
+by hoveringon the row it drags to the left and shows the information about the scentence writen , and by hovering on the to scentence it shows all the information
