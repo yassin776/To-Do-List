@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task</title>
+        <style>
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: aquamarine;
+        }
+        h1 {
+            text-align: center;
+            color: #4b7705;
+            font-size: xx-large;
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+        }
+        .row {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .content {
+            transition: 1.5s;
+            margin-left: -730px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            box-sizing: border-box;
+            width: 800px;
+            position: relative;
+            background-color: aqua;
+        }
+        .content:hover {
+            margin-left: -100px;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            margin-left: 20px;
+        }
+        p {
+            margin: 0;
+        }
+        h2 {
+            margin-left: 20px;
+            display: none;
+            text-align: center;
+            transition: 1s;
+        }
+        .row:hover h2 {
+            display: block;
+        }
+        .hidden-div {
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 90%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            transition: 1s;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-left: 80px;
+        }
+        .hover-text {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+            color: #000000;
+            font-size: large;
+        }
+        .hover-text:hover + .hidden-div {
+            left: -100px;
+        }
+    </style>
+    </head>
+    <body>
+       <h1>Computers</h1>
+       <div class="container">
+            <div class="row">
+                <div class="content">
+                    <p>A computer is a device that accepts information (in the form of digitalized data) and manipulates it for some result based on a program, software, or sequence of instructions on how the data is to be processed.</p>
+                    <img src="wii1.jpg">
+                </div>
+                <h2>What is the definition of a computer?</h2>
+            </div>
+            <div class="row">
+                <div class="content">
+                    <p>Computer hardware includes the physical parts of a computer, such as the CPU, RAM, motherboard, and more. It also includes external devices like a monitor, mouse, keyboard, and speakers.</p>
+                    <img src="wii1.jpg">
+                </div>
+                <h2>What are in computers?</h2>
+            </div>
+            <div class="row">
+                <div class="content">
+                    <p>Basic computer knowledge includes how computers work and how to use them, such as typing, using keyboard commands, connecting to the internet, and understanding operating systems.</p>
+                    <img src="wii1.jpg">
+                </div>
+                <h2>What is computer basic?</h2>
+            </div>
+            <div class="row">
+                <div class="content">
+                    <p>Humans interact with computers via software, which translates user input into machine-readable data. Computers also run an operating system that manages all software.</p>
+                    <img src="wii1.jpg">
+                </div>
+                <h2>How do computers work?</h2>
+            </div>
+            <div class="row">
+                <div class="content">
+                    <p>RAM (Random-Access Memory) is the short-term memory of a computer. It temporarily stores data that the processor needs to run applications and files quickly.</p>
+                    <img src="wii1.jpg">
+                </div>
+                <h2>What is RAM in a computer?</h2>
+            </div>
+       </div>
+       <div class="hover-text">Hover over me</div>
+       <div class="hidden-div">
+           <p>A computer is a device that accepts information (in the form of digitalized data) and manipulates it for some result based on a program, software, or sequence of instructions on how the data is to be processed.</p><br>
+           <p>Computer hardware includes the physical parts of a computer, such as the CPU, RAM, motherboard, and more. It also includes external devices like a monitor, mouse, keyboard, and speakers.</p><br>
+           <p>Basic computer knowledge includes how computers work and how to use them, such as typing, using keyboard commands, connecting to the internet, and understanding operating systems.</p><br>
+           <p>Humans interact with computers via software, which translates user input into machine-readable data. Computers also run an operating system that manages all software.</p><br>
+           <p>RAM (Random-Access Memory) is the short-term memory of a computer. It temporarily stores data that the processor needs to run applications and files quickly.</p><br>
+       </div>
+    </body>
+</html>
